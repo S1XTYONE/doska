@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Доска объявлений</title>
+    <link rel="stylesheet" href="stylesheets/screen.css">
+</head>
+<body>
+    <div class="wrapper"> <!-- grid -->
+        <div class="header"> <!-- grid row -->
+            <a href="#" class="header__item bb">Бюро находок</a>
+            <div class="header__item city">Поиск в регионе: <a href="#">Алматы</a></div>
+            <a href="#" class="header__item br">Заявить о пропаже</a>
+            <a href="#" class="header__item bo">Заявить о находке</a>
+            <div class="header__item phone">Телефон для справок:<br><span>8 (707) 352 8888</span></div>
+        </div>        
+    </div>
+    <div class="main">
+        <h1>Подайте объявление сейчас, чтобы найти<br> - бесплатно и быстро! </h1> 
+        <div class="search">
+            <form action="search.php" method="get">
+                <button type="submit"></button>
+                <input type="text" name="q" placeholder="Поиск объявлений: ключи, кошелёк...">
+            </form>  
+        </div>
+    </div>
+    <div class="wrapper"> <!-- grid -->
+        <div class="breadcrumbs"> <!-- grid row -->
+            <a href="#" class="breadcrumb__item breadcrumb__item-active">Главная</a><a href="#" class="breadcrumb__item">Объявления в Алматы</a>
+        </div>
+        <div class="tabs">
+
+          <ul class="tabs__caption">
+            <li class="active">Найдено</li>
+            <li>Пропало</li>
+          </ul>
+
+          <div class="tabs__content active">
+            <div class="tab__item">
+                <img src="" alt="" class="tab__item-img">
+                <div class="tab__item-desc">
+                    1
+                </div>
+                <a href="#" class="tab__item-button"></a>
+            </div>
+          </div>
+
+          <div class="tabs__content">
+            <div class="tab__item">
+                <img src="" alt="" class="tab__item-img">
+                <div class="tab__item-desc">
+                    2
+                </div>
+                <a href="#" class="tab__item-button"></a>
+            </div>
+          </div>
+
+        </div><!-- .tabs-->
+    </div>
+    <div class="footer"> <!-- grid row -->
+        <ul class="footer__column">
+            <li class="footer__column-item"><a href="">Объявления</a></li>
+            <li class="footer__column-item"><a href="">Магазины</a></li>
+            <li class="footer__column-item"><a href="">Платные услуги</a></li>
+            <li class="footer__column-item"><a href="">Помощь</a></li>
+        </ul>
+        <ul class="footer__column">
+            <li class="footer__column-item"><a href="">Объявления</a></li>
+            <li class="footer__column-item"><a href="">Магазины</a></li>
+            <li class="footer__column-item"><a href="">Платные услуги</a></li>
+            <li class="footer__column-item"><a href="">Помощь</a></li>
+        </ul>
+        <ul class="footer__column">
+            <li class="footer__column-item"><a href="">Объявления</a></li>
+            <li class="footer__column-item"><a href="">Магазины</a></li>
+            <li class="footer__column-item"><a href="">Платные услуги</a></li>
+            <li class="footer__column-item"><a href="">Помощь</a></li>
+        </ul>
+        <ul class="footer__column">
+            <li class="footer__column-item"><a href="">Объявления</a></li>
+            <li class="footer__column-item"><a href="">Магазины</a></li>
+            <li class="footer__column-item"><a href="">Платные услуги</a></li>
+            <li class="footer__column-item"><a href="">Помощь</a></li>
+        </ul>
+    </div>
+    
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

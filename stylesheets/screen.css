@@ -1,0 +1,55 @@
+@font-face { font-family: "proxima"; src: url("../fonts/Proxima_Nova_Light.opf"); font-weight: light; font-style: normal; }
+@font-face { font-family: "proxima"; src: url("../fonts/Proxima_Nova_Regular.opf"); font-weight: regular; font-style: normal; }
+@font-face { font-family: "proxima"; src: url("../fonts/Proxima_Nova_Bold.opf"); font-weight: bold; font-style: normal; }
+html, body { font-family: "proxima"; }
+
+html, body, ul, ol { margin: 0; padding: 0; }
+
+a { text-decoration: none; }
+
+.tabs__content { display: none; }
+
+.active { display: block; }
+
+.wrapper { max-width: 1140px; margin: 0 auto; }
+
+.header { display: flex; align-items: center; padding: 12px 0; }
+
+.bb { background: url(../images/bb.png) #0b8aff no-repeat center left; color: #fff; border-radius: 5px; font-size: 19px; padding: 10px 15px 10px 42px; position: relative; margin-right: 23px; transition: 0.5s; display: block; }
+.bb:hover { background-color: #005aac; transition: 0.5s; }
+.bb:after { content: " "; position: absolute; width: 9px; height: 9px; background: #fff10b; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; top: 2px; right: 2px; }
+
+.city { font-size: 14px; color: #333333; margin-right: 65px; }
+.city a { text-decoration: underline; text-decoration-style: dashed; color: #333333; }
+
+.br { background: url(../images/br.png) #de133e no-repeat center left; color: #fff; border-radius: 5px; font-size: 19px; padding: 10px 15px 10px 35px; margin-right: 23px; transition: 0.5s; }
+.br:hover { background-color: #b50026; transition: 0.5s; }
+
+.bo { background: url(../images/bo.png) #ff8300 no-repeat center left; color: #fff; border-radius: 5px; font-size: 19px; padding: 10px 15px 10px 35px; transition: 0.5s; }
+.bo:hover { background-color: #c06300; transition: 0.5s; }
+
+.phone { flex-grow: 1; text-align: right; font-size: 14px; }
+.phone span { font-size: 18px; }
+
+.main { display: flex; justify-content: center; text-align: center; align-items: center; padding: 55px 0 85px 0; background-color: #f7f7f7; border-top: 1px solid #e7e7e7; position: relative; margin-bottom: 100px; }
+.main h1 { color: #333; font-size: 34px; }
+
+.search { position: absolute; top: 85%; align-self: flex-end; }
+.search form { -webkit-appearance: none; border: 1px solid #e7e7e7; appearence: none; padding: 10px 20px; border-radius: 5px; background: #fff; }
+.search form input { border: none; width: 345px; margin: 0; outline: none; -webkit-appearance: none; vertical-align: top; line-height: 36px; font-size: 20px; margin-left: 20px; }
+.search form button { border: none; margin: 0; padding: 0; height: 35px; width: 35px; background: url(../images/search.png); }
+.search form button:hover { cursor: pointer; }
+
+.breadcrumb__item { color: #333; font-size: 14px; margin: 0 10px 0 0; }
+.breadcrumb__item:before { content: " "; background: url(../images/arrow.png) center no-repeat; width: 15px; height: 11px; margin-right: 10px; }
+.breadcrumb__item:first-child { margin-left: 0; }
+.breadcrumb__item:first-child:before { content: " "; display: none; }
+.breadcrumb__item-active { font-weight: bold; }
+
+.tabs { align-self: stretch; }
+
+.footer { display: flex; flex-direction: row; justify-content: center; align-items: center; background-color: #f7f7f7; border-top: 1px solid #e7e7e7; padding: 40px 0; }
+
+.footer__column { margin-right: 100px; }
+.footer__column li { list-style: none; line-height: 40px; }
+.footer__column li a { color: #333; fony-size: 16px; }

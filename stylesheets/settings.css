@@ -1,0 +1,12 @@
+@font-face { font-family: "proxima"; src: url("../fonts/Proxima_Nova_Light.opf"); font-weight: light; font-style: normal; }
+@font-face { font-family: "proxima"; src: url("../fonts/Proxima_Nova_Regular.opf"); font-weight: regular; font-style: normal; }
+@font-face { font-family: "proxima"; src: url("../fonts/Proxima_Nova_Bold.opf"); font-weight: bold; font-style: normal; }
+html, body { font-family: "proxima"; }
+
+html, body, ul, ol { margin: 0; padding: 0; }
+
+a { text-decoration: none; }
+
+.tabs__content { display: none; }
+
+.active { display: block; }
