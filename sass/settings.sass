@@ -1,25 +1,24 @@
 @font-face
     font-family: "proxima"
-    src: url('../fonts/Proxima_Nova_Light.opf')
+    src: url("../fonts/Proxima_Nova_Light.otf")
     font-weight: light
     font-style: normal
 
-@font-face
+@font-face 
     font-family: "proxima"
-    src: url('../fonts/Proxima_Nova_Regular.opf')
+    src: url("../fonts/Proxima_Nova_Regular.otf")
     font-weight: regular
     font-style: normal
 
 @font-face
     font-family: "proxima"
-    src: url('../fonts/Proxima_Nova_Bold.opf')
+    src: url("../fonts/Proxima_Nova_Bold.otf")
     font-weight: bold
     font-style: normal
 
 $grey: #f7f7f7
-$tab-grey: #e6e6e6
 
-html,
+html, 
 body
     font-family: "proxima"
 
@@ -32,9 +31,14 @@ ol
 
 a
     text-decoration: none
-    
+
 .tabs__content
     display: none
-    
+
 .active
     display: block
+    
+select
+    -webkit-appearance: none
+    border: none
+    border-bottom: dashed 1px #000
