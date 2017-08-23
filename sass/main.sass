@@ -1,4 +1,5 @@
 @import 'settings'
+@import 'magnific-popup.css'
 
 .wrapper
     max-width: 1140px
@@ -173,10 +174,65 @@
 .tab__item
     padding: 40px 0
     border-bottom: 1px solid #e6e6e6
-    diplay: inline-flex
+    display: flex
+    position: relative
     &-img
-        flex-grow: 1
-    &-desc
-        flex-grow: 1
+        border: 5px solid #e6e6e6
+        max-width: 300px
+        max-height: 200px
+        margin-right: 40px
+    &-header
+        margin: 0
+        padding: 0
+        font-size: 24px
+        font-weight: bold
+        color: #333
+    &-text
+        font-size: 16px
+        font-weight: regular
+    &-date
+        position: absolute
+        bottom: 9%
+        color: #6b6b6b
     &-btn
-        flex-grow: 1
+        position: absolute
+        right: 0
+        bottom: 15%
+        color: #000
+        border-bottom: dashed 1px #000
+        
+.tabs__content
+    &-pagination
+        display: inline-block
+        margin: 30px auto
+        a
+            background-color: #d0d1d3
+            border-radius: 5px
+            color: #000
+            padding: 10px 13px
+            &:hover, .active
+                background-color: #0b8aff
+                color: #fff
+                
+.mfp-content
+    max-width: 500px
+    
+.white-popup-block
+    background-color: #fff
+    padding: 10px
+    input
+        display: block
+        width: 100%
+        padding: 10px 5px
+        border-radius: 5px
+        -webkit-appearance: none
+        appearance: none
+        border: 1px solid #6d6d6d
+        margin: 5px 0
+    textarea
+        display: block
+        padding: 10px 5px
+        border-radius: 5px
+        border: 1px solid #6d6d6d
+        margin: 5px 0
+        width: 100%    
